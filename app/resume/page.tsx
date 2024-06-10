@@ -1,4 +1,4 @@
-export default function About() {
+export default async function Resume() {
   return (
     <div className="p-4">
       <h1 className="text-2xl font-bold mb-4">About Me</h1>

@@ -5,7 +5,7 @@ import React from "react";
 export const navigation = [
   { name: "Blog", href: "/blog" },
   { name: "Projects", href: "/projects" },
-  { name: "About", href: "/about" },
+  { name: "Resume", href: "/resume" },
   { name: "Contact", href: "/contact" },
   { name: "Hobby", href: "/hobby" },
 ];
