@@ -10,12 +10,12 @@ export const metadata: Metadata = {
     default: "xiangnuans.github.io",
     template: "%s | chronark.com",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "full stack developer",
   openGraph: {
-    title: "chronark.com",
-    description: "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://chronark.com",
-    siteName: "chronark.com",
+    title: "xiangnuans",
+    description: "full stack developer",
+    url: "https://xiangnuans.github.io/xiangnuans/",
+    siteName: "xiangnuans.github.io",
     images: [
       {
         url: "/og.png",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Chronark",
+    title: "xiangnuan",
     card: "summary_large_image",
   },
   icons: {
