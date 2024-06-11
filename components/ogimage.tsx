@@ -1,4 +1,4 @@
-import { PostType } from "./postList";
+import { PostType } from "./articleList";
 
 interface Props {
   post: PostType;

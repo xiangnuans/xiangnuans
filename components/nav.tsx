@@ -40,6 +40,7 @@ export const Navigation: React.FC = () => {
                 {item.name}
               </Link>
             ))}
+            {/* <ThemeSwitch /> */}
           </div>
           <Link
             href="/"

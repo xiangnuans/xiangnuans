@@ -5,7 +5,7 @@ import CategoryLabel from "@/components/category";
 import Container from "@/components/container";
 import Image from "next/image";
 import Link from "next/link";
-import { PostType } from "@/components/postList";
+import { PostType } from "@/components/articleList";
 import { notFound } from "next/navigation";
 import { urlForImage } from "@/lib/sanity/image";
 

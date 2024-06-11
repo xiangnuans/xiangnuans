@@ -1,11 +1,12 @@
-import Label from "@/components/label";
+import Label, { ColorType } from "@/components/label";
+
 import Link from "next/link";
 
 export interface CategoryType {
   slug: {
     current: string;
   };
-  color: string;
+  color: ColorType;
   title: string;
 }
 

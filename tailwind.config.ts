@@ -10,6 +10,9 @@ module.exports = {
 
   theme: {
     extend: {
+      borderColor: {
+        'line-color': 'var(--line-color)',
+      },
       typography: {
         DEFAULT: {
           css: {
