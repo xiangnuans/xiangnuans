@@ -8,36 +8,36 @@ import Link from "next/link";
 import { cx } from "@/util/all";
 import { urlForImage } from "@/lib/sanity/image";
 
-export type PostType = {
+export type ArticleType = {
   _id: string;
   title: string;
-  excerpt: string;
-  mainImage: {
+  excerpt?: string;
+  mainImage?: {
     blurDataURL: string;
     alt: string;
   };
   slug: {
     current: string;
   };
-  author: AuthorType;
-  publishedAt: string;
-  _createdAt: string;
-  categories: CategoryType[];
-  estReadingTime: number;
+  author?: AuthorType;
+  publishedAt?: string;
+  _createdAt?: string;
+  categories?: CategoryType[];
+  estReadingTime?: number;
 };
 
 interface Props {
-  post: PostType;
-  aspect: string;
+  article: ArticleType;
+  aspect?: string;
   minimal?: boolean;
   pathPrefix?: string;
-  preloadImage: boolean;
+  preloadImage?: boolean;
   fontSize?: string;
   fontWeight?: string;
 }
 
-export default function PostList({
-  post,
+export default function articleList({
+  article,
   aspect,
   minimal,
   pathPrefix,
@@ -45,15 +45,17 @@ export default function PostList({
   fontSize,
   fontWeight,
 }: Props) {
-  const imageProps = post?.mainImage ? urlForImage(post.mainImage) : null;
+  const imageProps = article?.mainImage ? urlForImage(article.mainImage) : null;
   const AuthorimageProps:
     | { src: string; width: any; height: any }
     | null
-    | undefined = post?.author?.image ? urlForImage(post.author.image) : null;
+    | undefined = article?.author?.image
+    ? urlForImage(article.author.image)
+    : null;
 
   return (
     <div
-      key={post?._id}
+      key={article?._id}
       className={cx(
         "group cursor-pointer",
         minimal && "grid gap-10 md:grid-cols-2"
@@ -73,18 +75,18 @@ export default function PostList({
               ? "aspect-[5/4]"
               : "aspect-square"
           )}
-          href={`/post/${pathPrefix ? `${pathPrefix}/` : ""}${
-            post.slug.current
+          href={`/article/${pathPrefix ? `${pathPrefix}/` : ""}${
+            article.slug.current
           }`}
         >
           {imageProps ? (
             <Image
               src={imageProps.src}
-              {...(post.mainImage.blurDataURL && {
+              {...(article.mainImage.blurDataURL && {
                 placeholder: "blur",
-                blurDataURL: post.mainImage.blurDataURL,
+                blurDataURL: article.mainImage.blurDataURL,
               })}
-              alt={post.mainImage.alt || "Thumbnail"}
+              alt={article.mainImage.alt || "Thumbnail"}
               priority={preloadImage ? true : false}
               className="object-cover transition-all"
               fill
@@ -100,7 +102,7 @@ export default function PostList({
 
       <div className={cx(minimal && "flex items-center")}>
         <div>
-          {/* <CategoryLabel categories={post.categories} nomargin={minimal} /> */}
+          {/* <CategoryLabel categories={article.categories} nomargin={minimal} /> */}
           <h2
             className={cx(
               fontSize === "large"
@@ -115,8 +117,8 @@ export default function PostList({
             )}
           >
             <Link
-              href={`/post/${pathPrefix ? `${pathPrefix}/` : ""}${
-                post.slug.current
+              href={`/article/${pathPrefix ? `${pathPrefix}/` : ""}${
+                article.slug.current
               }`}
             >
               <span
@@ -128,40 +130,42 @@ export default function PostList({
       group-hover:bg-[length:100%_10px]
       dark:from-purple-800 dark:to-purple-900"
               >
-                {post.title}
+                {article.title}
               </span>
             </Link>
           </h2>
 
           <div className="hidden">
-            {post.excerpt && (
+            {article.excerpt && (
               <p className="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400">
                 <Link
-                  href={`/post/${pathPrefix ? `${pathPrefix}/` : ""}${
-                    post.slug.current
+                  href={`/article/${pathPrefix ? `${pathPrefix}/` : ""}${
+                    article.slug.current
                   }`}
                 >
-                  {post.excerpt}
+                  {article.excerpt}
                 </Link>
               </p>
             )}
           </div>
 
           <div className="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400">
-            <Link href={`/author/${post?.author?.slug?.current}`}>
+            <Link href={`/author/${article?.author?.slug?.current}`}>
               <div className="flex items-center gap-3">
                 <div className="relative h-5 w-5 flex-shrink-0">
-                  {post?.author?.image && (
+                  {article?.author?.image && (
                     <Image
                       src={AuthorimageProps?.src || ""}
-                      alt={post?.author?.name}
+                      alt={article?.author?.name}
                       className="rounded-full object-cover"
                       fill
                       sizes="20px"
                     />
                   )}
                 </div>
-                <span className="truncate text-sm">{post?.author?.name}</span>
+                <span className="truncate text-sm">
+                  {article?.author?.name}
+                </span>
               </div>
             </Link>
             <span className="text-xs text-gray-300 dark:text-gray-600">
@@ -169,10 +173,10 @@ export default function PostList({
             </span>
             <time
               className="truncate text-sm"
-              dateTime={post?.publishedAt || post._createdAt}
+              dateTime={article?.publishedAt || article._createdAt}
             >
               {format(
-                parseISO(post?.publishedAt || post._createdAt),
+                parseISO(article?.publishedAt || article._createdAt),
                 "MMMM dd, yyyy"
               )}
             </time>

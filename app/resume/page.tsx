@@ -1,7 +1,6 @@
 import { FaLink } from "react-icons/fa6";
 import Link from "next/link";
 import { Navigation } from "@/components/nav";
-import { ResumeCard } from "@/components/resumeCard";
 
 export default async function Resume() {
   return (

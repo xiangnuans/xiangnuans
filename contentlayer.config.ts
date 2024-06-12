@@ -1,50 +1,24 @@
 import { defineDocumentType, makeSource } from "contentlayer/source-files";
-import remarkGfm from "remark-gfm";
+
+import { Project } from "@/lib/project/config";
+import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import rehypePrettyCode from "rehype-pretty-code";
 import rehypeSlug from "rehype-slug";
-import rehypeAutolinkHeadings from "rehype-autolink-headings";
+import remarkGfm from "remark-gfm";
 
 /** @type {import('contentlayer/source-files').ComputedFields} */
-const computedFields = {
+export const computedFields = {
 	path: {
 		type: "string",
-		resolve: (doc) => `/${doc._raw.flattenedPath}`,
+		resolve: (doc: { _raw: { flattenedPath: any; }; }) => `/${doc._raw.flattenedPath}`,
 	},
 	slug: {
 		type: "string",
-		resolve: (doc) => doc._raw.flattenedPath.split("/").slice(1).join("/"),
+		resolve: (doc: { _raw: { flattenedPath: string; }; }) => doc._raw.flattenedPath.split("/").slice(1).join("/"),
 	},
 };
 
-export const Project = defineDocumentType(() => ({
-	name: "Project",
-	filePathPattern: "./projects/**/*.mdx",
-	contentType: "mdx",
 
-	fields: {
-		published: {
-			type: "boolean",
-		},
-		title: {
-			type: "string",
-			required: true,
-		},
-		description: {
-			type: "string",
-			required: true,
-		},
-		date: {
-			type: "date",
-		},
-		url: {
-			type: "string",
-		},
-		repository: {
-			type: "string",
-		},
-	},
-	computedFields,
-}));
 
 export const Page = defineDocumentType(() => ({
 	name: "Page",
