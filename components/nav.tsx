@@ -26,7 +26,7 @@ export const Navigation: React.FC = () => {
         className={`fixed inset-x-0 top-0 z-50 backdrop-blur  duration-200 border-b  ${
           isIntersecting
             ? "bg-zinc-900/0 border-transparent"
-            : "bg-zinc-900/450 border-line-color"
+            : "bg-zinc-900/500  border-zinc-800 "
         }`}
       >
         <div className="container flex flex-row-reverse items-center justify-between p-6 mx-auto">
@@ -35,13 +35,13 @@ export const Navigation: React.FC = () => {
               <Link
                 key={item.href}
                 href={item.href}
-                className="duration-200 text-zinc-400 hover:text-zinc-100"
+                className="text-zinc-400 hover:text-zinc-100 transition-colors duration-200"
               >
                 {item.name}
               </Link>
             ))}
-            {/* <ThemeSwitch /> */}
           </div>
+
           <Link
             href="/"
             className="duration-200 text-zinc-300 hover:text-zinc-100"

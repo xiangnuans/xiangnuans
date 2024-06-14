@@ -3,11 +3,11 @@ import Particles from "@/components/particles";
 import React from "react";
 
 export const navigation = [
-  { name: "Article", href: "/article" },
+  { name: "Articles", href: "/articles" },
   { name: "Projects", href: "/projects" },
   { name: "Resume", href: "/resume" },
   { name: "Contact", href: "/contact" },
-  { name: "Hobby", href: "/hobby" },
+  { name: "Hobbies", href: "/hobbies" },
 ];
 
 export default function Home() {
