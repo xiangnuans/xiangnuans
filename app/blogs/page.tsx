@@ -1,6 +1,6 @@
-import ArticleList from "@/components/blogList";
+import BlogList from "@/components/blogList";
 import { allBlogs } from "@/.contentlayer/generated";
 
-export default async function ArticlePage() {
-  return <ArticleList blogs={allBlogs} />;
+export default async function BlogPage() {
+  return <BlogList blogs={allBlogs} />;
 }
