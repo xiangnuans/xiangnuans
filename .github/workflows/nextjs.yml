@@ -51,20 +51,19 @@ jobs:
           node-version: "20"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
 
-      - name: Setup pnpm
+      - name: Install pnpm
         if: steps.detect-package-manager.outputs.manager == 'pnpm'
-        run: npm install -g pnpm
-
-      - name: Add pnpm to PATH
-        if: steps.detect-package-manager.outputs.manager == 'pnpm'
-        run: echo "::add-path::$(npm bin -g)"
+        run: |
+          npm install -g pnpm
+          echo "Adding pnpm to PATH"
+          echo "::add-path::$(npm bin -g)"
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
         with:
           static_site_generator: next
 
-      - name: Restore cache
+      - name: Clear cache
         uses: actions/cache@v4
         with:
           path: |
