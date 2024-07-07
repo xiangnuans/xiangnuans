@@ -4,7 +4,7 @@ import { withContentlayer } from "next-contentlayer";
 const nextConfig = {
   output: 'export',
   basePath: "/XiangN",
-  assetPrefix: 'XiangN',
+  assetPrefix: '/XiangN/',
   pageExtensions: ["js", "jsx", "ts", "tsx", "md", "mdx"],
   experimental: {
     mdxRs: true,
