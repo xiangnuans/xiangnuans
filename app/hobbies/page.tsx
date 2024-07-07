@@ -23,21 +23,21 @@ const Hobby = async () => {
             {allHobbies
               .filter((_, i) => i % 3 === 0)
               .map((hobby) => (
-                <Article hobby={hobby} />
+                <Article key={hobby._id} hobby={hobby} />
               ))}
           </div>
           <div className="grid grid-cols-1 gap-4">
             {allHobbies
               .filter((_, i) => i % 3 === 1)
-              .map((project) => (
-                <Article hobby={project} />
+              .map((hobby) => (
+                <Article key={hobby._id} hobby={hobby} />
               ))}
           </div>
           <div className="grid grid-cols-1 gap-4">
             {allHobbies
               .filter((_, i) => i % 3 === 2)
               .map((hobby) => (
-                <Article hobby={hobby} />
+                <Article key={hobby._id} hobby={hobby} />
               ))}
           </div>
         </div>

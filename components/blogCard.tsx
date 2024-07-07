@@ -17,8 +17,8 @@ export const Blog: React.FC<Props> = ({ blog }: Props) => {
         <article className="p-4 md:p-8 justify-between flex flex-col">
           {blog?.categories && (
             <div className="flex gap-8 flex-nowrap mb-4">
-              {blog?.categories?.map((category: string) => (
-                <Link href={`/blogs/${category}`}>
+              {blog?.categories?.map((category: string, index: number) => (
+                <Link key={index} href={`/blogs/${category}`}>
                   <span className="text-zinc-100">{category}</span>
                 </Link>
               ))}

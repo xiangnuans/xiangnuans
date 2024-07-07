@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "xiangnuans",
     description: "full stack developer",
-    url: "https://xiangnuans.github.io/xiangnuans/",
+    url: "https://xiangnuans.github.io/XiangN/",
     siteName: "xiangnuans.github.io",
     images: [
       {

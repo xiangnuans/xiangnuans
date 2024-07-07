@@ -1,7 +1,7 @@
-import { Article } from "@/.contentlayer/generated";
+import { Blog } from "@/.contentlayer/generated";
 
 interface Props {
-  post: Article;
+  post: Blog;
 }
 
 export default function OgImage({ post }: Props) {
