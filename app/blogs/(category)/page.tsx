@@ -11,14 +11,13 @@ type ArticlesPageProps = {
   category?: string;
 };
 
-export default function CategoriedPage({
+export default async function CategoriedPage({
   blogs,
   category,
   blog,
 }: ArticlesPageProps) {
   const pathname = usePathname();
-  const categories = pathname.split("/").filter(Boolean).slice(1);
-  console.log(">>>", pathname, categories);
+  const categories = pathname?.split("/")?.filter(Boolean).slice(1);
 
   if (!categories) {
     return (
