@@ -1,5 +1,6 @@
 "use client";
 
+import { FaGithub, FaXTwitter } from "react-icons/fa6";
 import React, { useEffect, useRef, useState } from "react";
 
 import { ArrowLeft } from "lucide-react";
@@ -37,7 +38,13 @@ export const Navigation: React.FC = () => {
                 href={item.href}
                 className="text-zinc-400 hover:text-zinc-100 transition-colors duration-200"
               >
-                {item.name}
+                {item.isIcon && item.name === "twitter" && (
+                  <FaXTwitter size={20} />
+                )}
+                {item.isIcon && item.name === "github" && (
+                  <FaGithub size={20} />
+                )}
+                {item.name !== "github" && item.name !== "twitter" && item.name}
               </Link>
             ))}
           </div>

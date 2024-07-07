@@ -20,10 +20,12 @@ export default async function Resume() {
             </div>
             <div className=" w-full max-w-[600px]">
               <div className=" mb-2">
-                <h1 className=" text-zinc-100">xiangnuan</h1>
+                <h1 className=" text-zinc-100">xiangnuans</h1>
               </div>
               <div className=" mb-2">
-                <p className=" text-zinc-300">Full Stack Developer, He/Him</p>
+                <p className=" text-zinc-300">
+                  Frontend Developer/Full Stack Developer, He/Him
+                </p>
               </div>
               <Link
                 className=" mb-6 flex items-center w-fit h-6 text-zinc-100"
@@ -32,19 +34,19 @@ export default async function Resume() {
                 href="https://github.com/xiangnuans"
               >
                 <span className="flex items-center relative mr-3 border-b">
-                  xiangnuan
+                  xiangnuans
                 </span>
                 <FaLink />
               </Link>
               <div>
                 <p className=" mb-4 text-zinc-300">
-                  Hi, I'm xiangnuan(向暖) 😄, a Fronted Engineer from China 🇨🇳.
-                  Currently resides in Hangzhou. The tech stacks I specialize in
-                  are the following:
+                  Hi, I'm xiangnuan(向暖) 😄, a Fronted Developer/Full Stack
+                  Developer from China 🇨🇳. Currently resides in Hangzhou. The
+                  tech stacks I specialize in are the following:
                 </p>
                 <p className=" mb-0 text-zinc-300">
-                  TypeScript | React 全家桶 | Next | Tailwindcss｜ ReactNative |
-                  MySQL | Redis | MongoDB ｜ PostgreSQL
+                  TypeScript | React 全家桶 | Node | Next | Tailwindcss｜
+                  ReactNative | MySQL | Redis | MongoDB ｜ PostgreSQL
                 </p>
               </div>
             </div>
@@ -143,10 +145,43 @@ export default async function Resume() {
         </div>
       </section>
       <section>
-        <div className="px-4 pt-10 mx-auto md:max-w-4xl">
+        <div className="px-4 pt-10 border-line-color mx-auto md:max-w-4xl">
           <div className="mb-8">
             <p className="leading-6 font-medium text-zinc-100">Projects</p>
           </div>
+          <div className="flex justify-between">
+            <div className="whitespace-nowrap">
+              <p className="text-zinc-300">2024</p>
+            </div>
+            <div className="w-full max-w-[600px] pb-10 justify-between flex">
+              <img
+                src="https://img1.baidu.com/it/u=2123504535,1594154131&fm=253&fmt=auto&app=120&f=JPEG?w=794&h=500"
+                alt=""
+                className=" w-[180px] mr-6 rounded-lg"
+              />
+              <div>
+                <Link href="https://www.npmjs.com/package/egg-ts-pay">
+                  <h3 className=" text-zinc-100">dapp-next-wagmi-solidity</h3>
+                </Link>
+                <p className=" text-zinc-300">
+                  <br />
+                </p>
+                <p className="mb-1 text-zinc-300">
+                  <br />
+                  Developing a complete Dapp for NFTMarket. The contract
+                  realizes the function of casting, uploading and downloading
+                  NFTs, and the user can download NFTs after uploading them and
+                  before they are purchased by others. Show all the NFTs in the
+                  Market interface (pictures, NFT information). NFT information
+                  including (price, time on shelf, owner)
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="px-4 pt-10 mx-auto md:max-w-4xl">
           <div className="flex justify-between">
             <div className="whitespace-nowrap">
               <p className="text-zinc-300">2023</p>
@@ -179,7 +214,7 @@ export default async function Resume() {
         </div>
       </section>
       <section>
-        <div className="px-4 pt-10 mx-auto md:max-w-4xl">
+        <div className="px-4 pt-10 border-b mx-auto md:max-w-4xl">
           <div className="flex justify-between">
             <div className="whitespace-nowrap">
               <p className="text-zinc-300">2023</p>
@@ -207,41 +242,6 @@ export default async function Resume() {
                 {/* <p className="mb-1 text-zinc-300">
                   <br />
                   基于微前端框架Qiankun，实际业务场景搭建的中后台项目性框架，同时也支持模块联邦的使用，支持应用在不通的仓库、跨项目的页面复用、组件复用的能力
-                </p> */}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section>
-        <div className="px-4 pt-10 border-b border-line-color mx-auto md:max-w-4xl">
-          <div className="flex justify-between">
-            <div className="whitespace-nowrap">
-              <p className="text-zinc-300">2019</p>
-            </div>
-            <div className="w-full max-w-[600px] pb-10 justify-between flex">
-              <img
-                src="https://static-production.npmjs.com/338e4905a2684ca96e08c7780fc68412.png"
-                alt=""
-                className=" w-[180px] mr-6 rounded-lg"
-              />
-              <div>
-                <Link href="https://www.npmjs.com/package/egg-ts-pay">
-                  <h3 className=" text-zinc-100">egg-ts-pay</h3>
-                </Link>
-                <p className=" text-zinc-300">
-                  <br />
-                  bodyParser parameter analysis xml2js xml conversion
-                  aliSignVerify Alipay Signature Verification wxSignVerify
-                  WeChat Signature Verification createOrderNum create unique
-                  order number based on redis, support high concurrency
-                </p>
-                {/* <p className="mb-1 text-zinc-300">
-                  <br />
-                  wxPay 微信支付， 查看更多API alipay 支付宝支付， 查看更多API
-                  bodyParser 参数解析 xml2js xml转换 aliSignVerify
-                  支付宝签名校验 wxSignVerify 微信签名校验 createOrderNum
-                  创建唯一订单号，基于redis，支持高并发
                 </p> */}
               </div>
             </div>

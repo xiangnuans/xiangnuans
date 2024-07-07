@@ -24,7 +24,7 @@ const socials = [
     icon: <FaGithub size={40} />,
     href: "https://github.com/xiangnuans",
     label: "Github",
-    handle: "xiangnuan",
+    handle: "xiangnuans",
   },
 ];
 

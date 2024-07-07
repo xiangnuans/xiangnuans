@@ -1,6 +1,6 @@
 "use client";
 
-import ArticleList from "@/components/articleList";
+import ArticleList from "@/components/blogList";
 import type { Article as ArticleType } from "@/.contentlayer/generated";
 import React from "react";
 import { allArticles } from "@/.contentlayer/generated";

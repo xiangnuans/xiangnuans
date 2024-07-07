@@ -3,11 +3,20 @@ import Particles from "@/components/particles";
 import React from "react";
 
 export const navigation = [
-  { name: "Articles", href: "/articles" },
+  { name: "Blogs", href: "/blogs" },
   { name: "Projects", href: "/projects" },
   { name: "Resume", href: "/resume" },
-  { name: "Contact", href: "/contact" },
   { name: "Hobbies", href: "/hobbies" },
+  {
+    name: "twitter",
+    href: "https://x.com/coco69564520",
+    isIcon: true,
+  },
+  {
+    name: "github",
+    href: "https://github.com/xiangnuans",
+    isIcon: true,
+  },
 ];
 
 export default function Home() {
@@ -21,7 +30,11 @@ export default function Home() {
               href={item.href}
               className="text-sm duration-500 text-zinc-500 hover:text-zinc-300"
             >
-              {item.name}
+              {/* {item.isIcon && item.name === "twitter" && (
+                <FaXTwitter size={40} />
+              )}
+              {item.isIcon && item.name === "github" && <FaGithub size={40} />} */}
+              {item.name !== "github" && item.name !== "twitter" && item.name}
             </Link>
           ))}
         </ul>

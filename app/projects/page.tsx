@@ -23,13 +23,13 @@ export default async function ProjectsPage() {
   // }, {} as Record<string, number>);
 
   const top1 = allProjects.find(
-    (project: { slug: string }) => project.slug === "unkey"
+    (project: { slug: string }) => project.slug === "first-dapp"
   )!;
   const top2 = allProjects.find(
-    (project: { slug: string }) => project.slug === "planetfall"
+    (project: { slug: string }) => project.slug === "shopify-app"
   )!;
   const top3 = allProjects.find(
-    (project: { slug: string }) => project.slug === "highstorm"
+    (project: { slug: string }) => project.slug === "micro-front"
   )!;
   const sorted = allProjects
     .filter((p: any) => p.published)

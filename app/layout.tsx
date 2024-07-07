@@ -8,7 +8,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: {
     default: "xiangnuans.github.io",
-    template: "%s | chronark.com",
+    template: "%s | xaingnuans.com",
   },
   description: "full stack developer",
   openGraph: {
