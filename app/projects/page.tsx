@@ -100,7 +100,7 @@ export default async function ProjectsPage() {
           </Card>
           <div className="flex flex-col w-full gap-8 mx-auto border-t border-gray-900/10 lg:mx-0 lg:border-t-0 ">
             {[top2, top3].map((project) => (
-              <Article project={project} />
+              <Article key={project._id} project={project} />
             ))}
           </div>
         </div>
@@ -110,21 +110,21 @@ export default async function ProjectsPage() {
             {sorted
               .filter((_, i) => i % 3 === 0)
               .map((project) => (
-                <Article project={project} />
+                <Article key={project._id} project={project} />
               ))}
           </div>
           <div className="grid grid-cols-1 gap-4">
             {sorted
               .filter((_, i) => i % 3 === 1)
               .map((project) => (
-                <Article project={project} />
+                <Article key={project._id} project={project} />
               ))}
           </div>
           <div className="grid grid-cols-1 gap-4">
             {sorted
               .filter((_, i) => i % 3 === 2)
               .map((project) => (
-                <Article project={project} />
+                <Article key={project._id} project={project} />
               ))}
           </div>
         </div>

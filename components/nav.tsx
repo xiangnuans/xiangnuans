@@ -5,7 +5,7 @@ import React, { useEffect, useRef, useState } from "react";
 
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
-import { navigation } from "@/app/page";
+import { navigation } from "./navigation";
 
 export const Navigation: React.FC = () => {
   const ref = useRef<HTMLElement>(null);

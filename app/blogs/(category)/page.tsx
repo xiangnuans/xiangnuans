@@ -1,21 +1,20 @@
 "use client";
 
-import ArticleList from "@/components/blogList";
-import type { Article as ArticleType } from "@/.contentlayer/generated";
+import BlogList from "@/components/blogList";
+import type { Blog as BlogType } from "@/.contentlayer/generated";
 import React from "react";
-import { allArticles } from "@/.contentlayer/generated";
 import { usePathname } from "next/navigation";
 
 type ArticlesPageProps = {
-  articles?: ArticleType[];
-  article?: ArticleType;
+  blogs?: BlogType[];
+  blog?: BlogType;
   category?: string;
 };
 
 export default function CategoriedPage({
-  articles,
+  blogs,
   category,
-  article,
+  blog,
 }: ArticlesPageProps) {
   const pathname = usePathname();
   const categories = pathname.split("/").filter(Boolean).slice(1);
@@ -24,7 +23,7 @@ export default function CategoriedPage({
   if (!categories) {
     return (
       <div>
-        <h1>Articles</h1>
+        <h1>Blogs</h1>
         <p>This is the main articles page.</p>
       </div>
     );
@@ -34,7 +33,7 @@ export default function CategoriedPage({
     return (
       <div>
         <h1>Category: {category}</h1>
-        <ArticleList articles={articles || []} />
+        <BlogList blogs={blogs || []} />
       </div>
     );
   }
@@ -42,8 +41,8 @@ export default function CategoriedPage({
   if (Array.isArray(categories) && categories.length === 2) {
     return (
       <div>
-        <h1>Article: {article?.title}</h1>
-        <div>{article?.author}</div>
+        <h1>Blog: {blog?.title}</h1>
+        {/* <div>{blog?.author}</div> */}
       </div>
     );
   }
