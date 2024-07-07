@@ -55,6 +55,9 @@ jobs:
         with:
           static_site_generator: next
 
+      - name: Debug next.config.mjs
+        run: cat next.config.mjs
+
       - name: Restore cache
         uses: actions/cache@v4
         with:
