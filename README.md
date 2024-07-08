@@ -1,6 +1,6 @@
 # Hello World
  
-Hi, I'm xiangnuan(向暖)😄, a Fronted Engineer from China🇨🇳. The tech stacks I specialize in are the following.
+Hi, I'm xiangnuan(向暖) 😄, a Fronted Engineer from China 🇨🇳. The tech stacks I specialize in are the following.
 
 ## Web3
 🚀 I'm studying and participating in Web3 related homework classes as well as open source projects in hopes of finding front-end remote job opportunities!
