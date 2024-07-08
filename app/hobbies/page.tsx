@@ -1,11 +1,16 @@
 import { Article } from "./article";
 import { Navigation } from "@/components/nav";
+import Particles from "@/components/particles";
 import { allHobbies } from "@/.contentlayer/generated";
 
 const Hobby = async () => {
   console.log("allHobbies = ", allHobbies);
   return (
     <div className="relative pb-16">
+      <Particles
+        className="absolute inset-0 -z-10 animate-fade-in"
+        quantity={100}
+      />
       <Navigation />
       <div className="px-6 pt-20 mx-auto space-y-8 max-w-7xl lg:px-8 md:space-y-16 md:pt-24 lg:pt-32">
         <div className="max-w-2xl mx-auto lg:mx-0">

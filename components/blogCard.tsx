@@ -4,13 +4,18 @@ import type { Blog as BlogType } from "@/.contentlayer/generated";
 import { Card } from "@/components/card";
 import { Eye } from "lucide-react";
 import Link from "next/link";
+import { useHydration } from "@/hooks/useHydration";
 
 interface Props {
   blog: BlogType;
   // views: number;
 }
 
-export const Blog: React.FC<Props> = ({ blog }: Props) => {
+export default function Blog({ blog }: Props) {
+  const hydrated = useHydration();
+  if (!hydrated) {
+    return null;
+  }
   return (
     <Link key={blog?.slug} href={`/blogs/${blog?.slug}`}>
       <Card>
@@ -51,4 +56,4 @@ export const Blog: React.FC<Props> = ({ blog }: Props) => {
       </Card>
     </Link>
   );
-};
+}
