@@ -11,7 +11,7 @@ Hi, I'm xiangnuan(向暖)😄, a Fronted Engineer from China🇨🇳. The tech s
   - Community open class project in action: https://github.com/xiangnuans/Web3-Frontend-Bootcamp/tree/task5
 
 
-## Personal technology stack
+## Personal Technology Stack
 ![Skill mapping in action](/public/技能网络.png)
 
 
