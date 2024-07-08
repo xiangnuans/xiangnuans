@@ -2,11 +2,11 @@
 
 import { FaGithub, FaXTwitter } from "react-icons/fa6";
 import React, { useEffect, useRef, useState } from "react";
-import { usePathname, useRouter } from "next/navigation";
 
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
 import { navigation } from "./navigation";
+import { usePathname } from "next/navigation";
 
 export const Navigation: React.FC = () => {
   const ref = useRef<HTMLElement>(null);
