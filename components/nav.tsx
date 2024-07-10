@@ -44,8 +44,12 @@ export const Navigation: React.FC = () => {
           <div className="flex justify-between gap-8">
             {navigation.map((item) => (
               <Link
-                key={item.href}
-                href={item.href}
+                key={item.name}
+                href={
+                  item.href === "/blogs"
+                    ? "https://xiangnuans.github.io/blog/"
+                    : item.href
+                }
                 className={` hover:text-zinc-100 transition-colors duration-200 ${
                   currentPath === item.href ? "text-zinc-100" : "text-zinc-400"
                 } `}

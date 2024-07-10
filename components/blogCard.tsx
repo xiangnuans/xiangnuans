@@ -32,9 +32,14 @@ export default function Blog({ blog }: Props) {
           <h2 className="z-20 text-xl font-medium duration-1000 lg:text-3xl text-zinc-200 group-hover:text-white font-display">
             {blog.title}
           </h2>
-          <p className="z-20 mt-4 text-sm  duration-1000 text-zinc-400 group-hover:text-zinc-200 mb-4">
-            {blog.description}
-          </p>
+          {blog?.description?.split("<br>").map((line, index) => (
+            <p
+              key={index}
+              className="z-20 mt-4 text-sm  duration-1000 text-zinc-400 group-hover:text-zinc-200 mb-4"
+            >
+              {line}
+            </p>
+          ))}
           <div className="flex gap-2 items-center">
             <span className="text-xs duration-1000 text-zinc-200 group-hover:text-white group-hover:border-zinc-200 drop-shadow-orange">
               {blog.date ? (
