@@ -1,0 +1,45 @@
+---
+title: dapp-template
+description:
+date: 2024-06-029
+url: https://github.com/xiangnuans/dapp-template
+published: true
+repository: xiangnuans/dapp-template
+---
+
+# 开发一个完整的 NFTMarket 的 Dapp
+
+## 目标
+
+编写一个智能合约，实现一个完整的 NFTMarket Dapp 功能，允许用户上架、下架 NFT 并使用自己部署的 ERC20 代币进行购买
+
+## 技术栈
+
+    •	前端：Next.js 14
+    •	合约：Solidity
+    •	SDK：ethers.js、rainbowkit、wagmi
+    •	工具：Hardhat
+
+## 主要功能
+
+    •	部署 ERC20 代币
+    •	部署 NFT 用于买卖，NFT 信息包括（价格、上架时间、拥有者）
+    •	用户可以将自己的 NFT 上架到市场，上架时需要指定 NFT 的合约地址、Token ID 以及价格（使用 ERC20 代币）
+    •   下架 NFT 的功能，用户可以在上架 NFT 后、被别人购买前下架 NFT
+    •   购买 NFT，用户可以使用自己部署的 ERC20 代币购买上架的 NFT，购买成功后，NFT 转移给买家，卖家收到 ERP20 代币
+    •   在 Market 界面展示出所有上架的 NFT（图片、NFT 信息）
+    •   下架 NFT 的功能，用户可以在上架 NFT 后、被别人购买前下架 NFT
+
+## 测试效果
+
+### 上架
+
+![list-nft](../../public/project/list-nft.jpg)
+
+### 下架
+
+![del-nft](../../public/project/del-nft.jpg)
+
+### 购买
+
+![buy](../../public/project/buy.jpg)
