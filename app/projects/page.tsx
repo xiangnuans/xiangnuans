@@ -24,13 +24,13 @@ export default async function ProjectsPage() {
   // }, {} as Record<string, number>);
 
   const top1 = allProjects.find(
-    (project: { slug: string }) => project.slug === "first-dapp"
+    (project: { slug: string }) => project?.slug === "first-dapp"
   )!;
   const top2 = allProjects.find(
-    (project: { slug: string }) => project.slug === "shopify-app"
+    (project: { slug: string }) => project?.slug === "shopify-app"
   )!;
   const top3 = allProjects.find(
-    (project: { slug: string }) => project.slug === "micro-front"
+    (project: { slug: string }) => project?.slug === "micro-front"
   )!;
   const sorted = allProjects
     .filter((p: any) => p.published)
@@ -64,8 +64,8 @@ export default async function ProjectsPage() {
         </div>
         <div className="w-full h-px bg-zinc-800" />
         <div className="grid grid-cols-1 gap-8 mx-auto lg:grid-cols-2 ">
-          <Card key={top1.slug}>
-            <Link href={`/projects/${top1.slug}`}>
+          <Card key={top1?.slug}>
+            <Link href={`/projects/${top1?.slug}`}>
               <article className="relative w-full h-full p-4 md:p-10">
                 <div className="flex items-center justify-between gap-2">
                   <div className="text-xs text-zinc-100">
