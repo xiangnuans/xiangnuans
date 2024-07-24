@@ -1,0 +1,63 @@
+---
+title: 工作台
+description: 一站式掌上智慧校园，千人千面工作台，一个可以自定义的工作台
+date: 2023-06-01
+url: https://letao.cnstrong.cn
+published: true
+repository: /xiangnuans/letao-workbench
+---
+
+> 一个的自定义工作台
+
+# 实际效果
+
+![首页](./letao-workbench/home.png)
+
+![应用](./letao-workbench/02-3全部应用.png)
+
+# 关键组件
+
+## 天气组件
+
+高德：@uiw/react-amap
+
+### 需要用到定位获取城市位置和天气
+
+![image](./letao-workbench/tq.png)
+
+### 列举了天气功能中所能返回的天气现象
+
+![image](./letao-workbench/tq1.png)
+
+问题：天气类型这个对，分别对应一个图标，UI 如何设计？
+解决方案：
+网上搜索了相关内容，目前没有找到免费的比较合适的天气图标
+UI 出几种常见的天气类型图标，后续再完善
+
+### 查询天气
+
+```json
+{
+  "province": "浙江",
+  "city": "杭州市",
+  "adcode": "330100",
+  "reportTime": "2022-06-17 09:37:54",
+  "info": "OK",
+  "forecasts": [
+    {
+      "date": "2022-06-17",
+      "week": "5",
+      "dayWeather": "阴",
+      "nightWeather": "阴",
+      "dayTemp": 34,
+      "nightTemp": 22,
+      "dayWindDir": "北",
+      "nightWindDir": "北",
+      "dayWindPower": "≤3",
+      "nightWindPower": "≤3"
+    }
+  ]
+}
+```
+
+## 拖拽组件
