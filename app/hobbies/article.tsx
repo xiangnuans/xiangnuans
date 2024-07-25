@@ -9,7 +9,7 @@ interface Props {
 
 export const Article: React.FC<Props> = ({ hobby }: Props) => {
   return (
-    <Link key={hobby?.slug} href={`/hobby/${hobby?.slug}`}>
+    <Link key={hobby?.slug} href={`/hobbies/${hobby?.slug}`}>
       <Card>
         <article className="p-4 md:p-8">
           <div className="flex justify-between gap-2 items-center">
