@@ -1,7 +1,7 @@
 "use client";
 
 import { ArrowLeft, Eye } from "lucide-react";
-import { FaGithub, FaTwitter } from "react-icons/fa6";
+import { FaGithub, FaTwitter, FaXTwitter } from "react-icons/fa6";
 import React, { useEffect, useRef, useState } from "react";
 
 import Link from "next/link";
@@ -70,7 +70,7 @@ export const Header: React.FC<Props> = ({ project }) => {
               )} */}
             </span>
             <Link target="_blank" href="https://twitter.com/coco69564520">
-              <FaTwitter
+              <FaXTwitter
                 className={`w-6 h-6 duration-200 hover:font-medium ${
                   isIntersecting
                     ? " text-zinc-400 hover:text-zinc-100"

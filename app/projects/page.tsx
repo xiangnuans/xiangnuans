@@ -24,13 +24,13 @@ export default async function ProjectsPage() {
   // }, {} as Record<string, number>);
 
   const top1 = allProjects.find(
-    (project: { slug: string }) => project?.slug === "first-dapp"
+    (project: { slug: string }) => project?.slug === "dapp-template"
   )!;
   const top2 = allProjects.find(
-    (project: { slug: string }) => project?.slug === "shopify-app"
+    (project: { slug: string }) => project?.slug === "micro-bff"
   )!;
   const top3 = allProjects.find(
-    (project: { slug: string }) => project?.slug === "micro-front"
+    (project: { slug: string }) => project?.slug === "shopify-app"
   )!;
   const sorted = allProjects
     .filter((p: any) => p.published)
