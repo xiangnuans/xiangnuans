@@ -13,7 +13,6 @@ Hi, I'm xiangnuan(向暖) 😄, a Fronted Engineer from China 🇨🇳. The tech
 
 ## Personal Technology Stack
 
-<img width="651" alt="技能图谱-技能图谱" src="https://github.com/user-attachments/assets/6e6419b1-5fc6-4d61-a2f8-398127f95366">
-
+<img width="651" alt="技能图谱" src="https://github.com/user-attachments/assets/e5e4dd62-636f-431e-8f29-87dbc840a541">
 
 
