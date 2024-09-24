@@ -12,7 +12,7 @@ Hi, I'm xiangnuan(向暖) 😄, a full-stack developer from China 🇨🇳. The 
 
  ---
  
- ### Ton NFT [产品介绍](https://xiangnuans.github.io/xiangnuans/projects/ton-nft)
+ ### Ton NFT [Projects Introduction](https://xiangnuans.github.io/xiangnuans/projects/ton-nft)
 
 - WooKong Digital Art Project • Developed a Telegram mini-program with integrated Ton blockchain
 - contracts, supporting NFT minting, user rankings, and points-based rewards. • Achieved 20K+ new Twitter users in one day and 1K+ Telegram
