@@ -17,9 +17,3 @@ Hi, I'm xiangnuan(向暖) 😄, a full-stack developer from China 🇨🇳. The 
 - WooKong Digital Art Project • Developed a Telegram mini-program with integrated Ton blockchain
 - contracts, supporting NFT minting, user rankings, and points-based rewards. • Achieved 20K+ new Twitter users in one day and 1K+ Telegram
 - subscriptions post-launch. • Stack: Next.js, Node.js, PostgreSQL, Ton API.
-   
-
-
-## Personal Technology Stack
-
-<img width="651" alt="技能图谱" src="https://github.com/user-attachments/assets/39cef9d6-0e96-45a1-8ea7-dad57076e170">
