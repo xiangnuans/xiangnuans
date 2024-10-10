@@ -33,3 +33,9 @@ TypeScript | React全家桶 | Nextjs | Vue | Tailwindcss | Monorepo | ReactNativ
 - WooKong Digital Art Project • Developed a Telegram mini-program with integrated Ton blockchain
 - contracts, supporting NFT minting, user rankings, and points-based rewards. • Achieved 20K+ new Twitter users in one day and 1K+ Telegram
 - subscriptions post-launch. • Stack: Next.js, Node.js, PostgreSQL, Ton API.
+
+### Punky
+https://github.com/punky-lab/punky-tma
+
+### LeaseHub
+LeaseHub aims to offer a new approach to property management for owners and a unique accommodation experience for travel enthusiasts.
