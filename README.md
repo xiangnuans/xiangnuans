@@ -1,6 +1,22 @@
 # Hello World
  
-Hi, I'm xiangnuan(向暖) 😄, a full-stack developer from China 🇨🇳. The tech stacks I specialize in are the following.
+Hi, I'm xiangnuan(向暖) 😄, a full-stack developer from China 🇨🇳.
+
+## Skills
+
+TypeScript | React全家桶 | Nextjs | Vue | Tailwindcss | Monorepo | ReactNative | Node | MySQL | Redis | MongoDB | PostgreSQL ｜ RocketMQ
+
+
+## Dashboard stats of developer
+
+<a href="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats?user_id=24558814" target="_blank" style="display: block" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=24558814&image_size=auto&color_scheme=dark" width="771" height="auto">
+    <img alt="Dashboard stats of @xiangnuans" src="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=24558814&image_size=auto&color_scheme=light" width="771" height="auto">
+  </picture>
+</a>
+
+<!-- Made with [OSS Insight](https://ossinsight.io/) -->
 
 ## Web3
 🚀 I'm studying and participating in Web3 related homework classes as well as open source projects in hopes of finding front-end remote job opportunities!
