@@ -30,16 +30,20 @@ Contribute TonConnect UI Vue is a Vue UI kit for TonConnect SDK.
   - Open Source Project Contribution: https://github.com/xiangnuans/Faucet-FrontEnd/tree/main
   - Community open class project in action: https://github.com/xiangnuans/Web3-Frontend-Bootcamp/tree/task5
 
- ---
  
- ### Ton NFT [Projects Introduction](https://xiangnuans.github.io/xiangnuans/projects/ton-nft)
+### [Ton NFT](https://xiangnuans.github.io/xiangnuans/projects/ton-nft)
 
 - WooKong Digital Art Project • Developed a Telegram mini-program with integrated Ton blockchain
 - contracts, supporting NFT minting, user rankings, and points-based rewards. • Achieved 20K+ new Twitter users in one day and 1K+ Telegram
 - subscriptions post-launch. • Stack: Next.js, Node.js, PostgreSQL, Ton API.
 
-### Punky
-https://github.com/punky-lab/punky-tma
+### [Punky](https://github.com/punky-lab/punky-tma)
+Punky Shiba Inu, our MVP, is a GameFi + AI Companion Telegram Minigame which deploys on Solana. Within this game, users can build healthy relationships with both their personalized AI virtual pets and other players.
+- Nurturing AI companions through consistent emotional bonding
+- Gaining Identity and Belonging within Punky Community
+- Trading dynamic Punky AI NFT in the marketplace freely
 
-### LeaseHub
+### [LeaseHub](https://github.com/xiangnuans/LeaseHub)
 LeaseHub aims to offer a new approach to property management for owners and a unique accommodation experience for travel enthusiasts.
+
+Welcome to LeaseHub! Our platform revolutionizes real estate management by allowing property owners to tokenize their assets, providing a flexible way to manage ownership and generate income.
