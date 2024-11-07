@@ -20,6 +20,10 @@ TypeScript | React全家桶 | Nextjs | Vue | Tailwindcss | Monorepo | ReactNativ
 
 ## Web3
 🚀 I'm studying and participating in Web3 related homework classes as well as open source projects in hopes of finding front-end remote job opportunities!
+
+### [tonconncet-ui-vue](https://github.com/TownSquareXYZ/tonconnect-ui-vue)
+Contribute TonConnect UI Vue is a Vue UI kit for TonConnect SDK.
+
  
 ### [Learning to Sort Out Brain Maps](https://xiangnuans.github.io/blog/web3/)
 - Web3 Project Practice
