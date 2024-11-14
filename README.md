@@ -14,7 +14,6 @@ TypeScript | React全家桶 | Nextjs | Vue | Tailwindcss | Monorepo | ReactNativ
 - @ton/ton
 - @tonconnect/ui-react
 - tonapi-sdk-js
-  
 - @tonconnect/ui
 - @tonconnect/sdk
 - @tonconnect/protocol
@@ -47,16 +46,9 @@ TypeScript | React全家桶 | Nextjs | Vue | Tailwindcss | Monorepo | ReactNativ
 <!-- Made with [OSS Insight](https://ossinsight.io/) -->
 
 ## Web3 Projects
-🚀 I'm studying and participating in Web3 related homework classes as well as open source projects in hopes of finding front-end remote job opportunities!
 
 ### [tonconncet-ui-vue](https://github.com/TownSquareXYZ/tonconnect-ui-vue)
 Contribute TonConnect UI Vue is a Vue UI kit for TonConnect SDK.
-
- 
-### [Learning to Sort Out Brain Maps](https://xiangnuans.github.io/blog/web3/)
-- Web3 Project Practice
-  - Open Source Project Contribution: https://github.com/xiangnuans/Faucet-FrontEnd/tree/main
-  - Community open class project in action: https://github.com/xiangnuans/Web3-Frontend-Bootcamp/tree/task5
 
  
 ### [Ton NFT](https://xiangnuans.github.io/xiangnuans/projects/ton-nft)
@@ -75,3 +67,10 @@ Punky Shiba Inu, our MVP, is a GameFi + AI Companion Telegram Minigame which dep
 LeaseHub aims to offer a new approach to property management for owners and a unique accommodation experience for travel enthusiasts.
 
 Welcome to LeaseHub! Our platform revolutionizes real estate management by allowing property owners to tokenize their assets, providing a flexible way to manage ownership and generate income.
+
+ 
+### [Learning to Sort Out Brain Maps](https://xiangnuans.github.io/blog/web3/)
+- Web3 Project Practice
+  - Open Source Project Contribution: https://github.com/xiangnuans/Faucet-FrontEnd/tree/main
+  - Community open class project in action: https://github.com/xiangnuans/Web3-Frontend-Bootcamp/tree/task5
+
