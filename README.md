@@ -4,7 +4,7 @@ Hi, I'm xiangnuan(向暖) 😄, a full-stack developer from China 🇨🇳.
 
 ## Skills
 
-TypeScript | React全家桶 | Nextjs | Vue | Tailwindcss | Monorepo | ReactNative | Node | MySQL | Redis | MongoDB | PostgreSQL ｜ RocketMQ | WebSocket
+TypeScript | React全家桶 | Nextjs | Theme-UI | Vue | Tailwindcss | Monorepo | ReactNative | Node | MySQL | Redis | MongoDB | PostgreSQL ｜ RocketMQ | WebSocket
 
 #### TON  
 - @orbs-network/ton-access
