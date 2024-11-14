@@ -46,7 +46,7 @@ TypeScript | React全家桶 | Nextjs | Vue | Tailwindcss | Monorepo | ReactNativ
 
 <!-- Made with [OSS Insight](https://ossinsight.io/) -->
 
-## Web3
+## Web3 Projects
 🚀 I'm studying and participating in Web3 related homework classes as well as open source projects in hopes of finding front-end remote job opportunities!
 
 ### [tonconncet-ui-vue](https://github.com/TownSquareXYZ/tonconnect-ui-vue)
