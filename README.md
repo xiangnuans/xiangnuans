@@ -71,6 +71,7 @@ Welcome to LeaseHub! Our platform revolutionizes real estate management by allow
  
 ### [Learning to Sort Out Brain Maps](https://xiangnuans.github.io/blog/web3/)
 - Web3 Project Practice
+  - [Faucet Terminal](https://openbuildxyz.github.io/eco/zh/projects/) 
   - Open Source Project Contribution: https://github.com/xiangnuans/Faucet-FrontEnd/tree/main
   - Community open class project in action: https://github.com/xiangnuans/Web3-Frontend-Bootcamp/tree/task5
 
