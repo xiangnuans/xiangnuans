@@ -6,32 +6,20 @@ Hi, I'm xiangnuan(向暖) 😄, a full-stack developer from China 🇨🇳.
 
 TypeScript | React全家桶 | Nextjs | Theme-UI | Vue | Tailwindcss | Monorepo | ReactNative | Node | MySQL | Redis | MongoDB | PostgreSQL ｜ RocketMQ | WebSocket
 
-#### TON  
-- @orbs-network/ton-access
-- @tonconnect/protocol
-- @ton/blueprint
-- @ton/core
-- @ton/ton
-- @tonconnect/ui-react
-- tonapi-sdk-js
-- @tonconnect/ui
-- @tonconnect/sdk
-- @tonconnect/protocol
-- tonconnect-ui-vue
 
-#### Ethereum
-- web3.js
-- ethers.js
-- viem
-- wagmi
-- @rainbow-me/rainbowkit
-
-#### Solana
-- @solana/web3.js
-- @solana/wallet-adapter-base
-- @solana/wallet-adapter-react
-- @solana/wallet-adapter-react-ui
-- @solana/wallet-adapter-wallets
+| **TON**                                      | **Ethereum**                          | **Solana**                                      |
+|----------------------------------------------|--------------------------------------|-------------------------------------------------|
+| @orbs-network/ton-access                     | web3.js                              | @solana/web3.js                                 |
+| @tonconnect/protocol                         | ethers.js                            | @solana/wallet-adapter-base                     |
+| @ton/blueprint                               | viem                                 | @solana/wallet-adapter-react                    |
+| @ton/core                                    | wagmi                                | @solana/wallet-adapter-react-ui                 |
+| @ton/ton                                     | @rainbow-me/rainbowkit              | @solana/wallet-adapter-wallets                  |
+| @tonconnect/ui-react                         |                                      |                                                 |
+| tonapi-sdk-js                                |                                      |                                                 |
+| @tonconnect/ui                               |                                      |                                                 |
+| @tonconnect/sdk                              |                                      |                                                 |
+| @tonconnect/protocol                         |                                      |                                                 |
+| tonconnect-ui-vue                           |                                      |                                                 |
 
 
 ## Dashboard stats of developer
