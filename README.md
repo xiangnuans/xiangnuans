@@ -1,6 +1,8 @@
-# Hello World
+# 👋 Hello World 
  
 Hi, I'm xiangnuan(向暖) 😄, a full-stack developer from China 🇨🇳.
+
+A full-stack developer with 10 years of experience in big data, e-commerce, and online education. Led large front-end teams, delivering projects like data monitoring and micro-frontend implementation. Over the past year, focused on Web3, contributing to multiple hackathons and gaining hands-on experience across various blockchains, driving practical blockchain applications.
 
 ## Skills
 
