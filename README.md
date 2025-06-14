@@ -47,7 +47,6 @@ Contribute TonConnect UI Vue is a Vue UI kit for TonConnect SDK.
 - contracts, supporting NFT minting, user rankings, and points-based rewards. • Achieved 20K+ new Twitter users in one day and 1K+ Telegram
 - subscriptions post-launch. • Stack: Next.js, Node.js, PostgreSQL, Ton API.
 
-### [Dropin I Tree Lotto](https://dropin.site/)
 
 ### [PunkyAI](https://github.com/punky-lab/punky-tma)
 Punky Shiba Inu, our MVP, is a GameFi + AI Companion Telegram Minigame which deploys on Solana. Within this game, users can build healthy relationships with both their personalized AI virtual pets and other players.
