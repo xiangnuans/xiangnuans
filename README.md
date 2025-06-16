@@ -10,7 +10,7 @@ I’ve joined multiple hackathons and worked hands-on across different blockchai
 
 ## 💻 Skills
 
-TypeScript | React Ecosystem | Next.js | Vue | Tailwind CSS | Node.js | MySQL | Redis | MongoDB | PostgreSQL | RocketMQ | WebSocket
+TypeScript | React | Next.js | Python | Tailwind CSS | Node.js | MySQL | Redis | MongoDB | PostgreSQL | RocketMQ | WebSocket
 
 ---
 
